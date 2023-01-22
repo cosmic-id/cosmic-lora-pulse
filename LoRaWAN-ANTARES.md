@@ -14,7 +14,7 @@ On-going
 
 * [Install CH340 Driver](https://sparks.gogo.co.nz/ch340.html)
 * Install ANTARES Library
-  1. [Download Library](https://antares.id/assets/files/Arduino-lora-id-AS923-2.zip)
+  1. [Download Library](https://antares.id/assets/files/LoRaWAN-Arduino-Library.zip)
   2. Import library : Sketch &#8594; Include Library &#8594; Add .ZIP Library...
   3. Load your downloaded library. Confirm.
 * Having an [ANTARES account](https://console.antares.id/register)
@@ -22,7 +22,7 @@ On-going
 
 ## Source Codes
 
-[LoRaWAN ANTARES](examples/LoRaWAN_ANATRES/LoRaWAN_ANTARES.ino)
+[LoRaWAN ANTARES](examples/LoRaWAN_ANTARES/LoRaWAN_ANTARES.ino)
 
 ## Step by Step
 
@@ -32,7 +32,7 @@ On-going
    * Pick the appropriate board : Tools &#8594; Board &#8594; Arduino Pro or Pro Mini
    * Pick the appropriate processor : Tools &#8594; Board &#8594; ATMega 328P (3.3V 8 MHz)
 4. Add a device and set lora for it in your ANTARES account.
-5. Load [LoRaWAN ANTARES code](examples/LoRaWAN_ANATRES/LoRaWAN_ANTARES.ino) to Arduino IDE.
+5. Load [LoRaWAN ANTARES code](examples/LoRaWAN_ANTARES/LoRaWAN_ANTARES.ino) to Arduino IDE.
 6. Modify the code using your access key & registered device address.
 7. Click Verify then Click Upload to Board. (Error compile? [Install ANTARES Library](#prerequisite))
 8. Open Serial Monitor of Arduino IDE. Set the Baud Rate as stated in Serial.begin of the LoRaWAN ANTARES code. Some debug info should be appeared stated it transmits some data to ANTARES.
