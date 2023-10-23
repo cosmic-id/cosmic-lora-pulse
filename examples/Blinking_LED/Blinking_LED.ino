@@ -1,4 +1,4 @@
-#define LED_PIN 8
+#define LED_PIN 5
 
 void setup() {
   // Initiate the LED PIN
