@@ -26,7 +26,7 @@ Cosmic LoRa Pulse is an Entry-Level Development Board that will fasten your time
 ### Featured Spesification
 | Feature                 |                    V3              | V2, V1 |  
 | ----------------------- | --------------------------------------- |----------------|
-| **Microcontroller**         |                    ❗ATmega 328PB❗          | ❗ATmega 328PB❗ |
+| **Microcontroller**         |                    ❗ATmega 328PB❗          | ❗ATmega 328P❗ |
 | **Bootloader**              |                    ❗[urboot](https://github.com/stefanrueger/urboot/)❗            | ❗Pro Mini❗ | 
 | **Clock Speed**             |                    8 MHz                | 8 MHz |
 | **LoRa(WAN)** | RFM95W | RFM95W |
