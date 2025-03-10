@@ -18,10 +18,8 @@
 ## Step by Step
 
 1. Plug the Cosmic LoRa Pulse boards to your Laptop.
-2. COM Port should be activated. ([If not? Install driver](https://sparks.gogo.co.nz/ch340.html)).
-3. Setup in Arduino IDE :
-   * Pick the appropriate board : Tools -> Board -> Arduino Pro or Pro Mini
-   * Pick the appropriate processor : Tools -> Board -> ATMega 328P (3.3V 8 MHz)
+2. COM Port should be activated. (If not? Install [Pulse V3 serial driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all) or [Pulse V2 V1 serial driver](https://www.dnatechindia.com/cp-2102-driver-download-installation.html)).
+3. Pick the Board in Arduino IDE as [this steps](README.md#upload-and-examples).
 4. Setup Transmitter
    * Load [Transmitter code](examples/LoRa_P2P_Transmitter/LoRa_P2P_Transmitter.ino) to Arduino IDE.
    * Click Verify then Click Upload to Board.

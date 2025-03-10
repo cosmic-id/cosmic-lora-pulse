@@ -12,7 +12,7 @@ On-going
 
 ## Prerequisite
 
-* [Install CH340 Driver](https://sparks.gogo.co.nz/ch340.html)
+* Install Pulse [V3 Serial Driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all) or [V2 V1 Serial Driver](https://www.dnatechindia.com/cp-2102-driver-download-installation.html)
 * Install ANTARES Library
   1. [Download Library](https://antares.id/assets/files/LoRaWAN-Arduino-Library.zip)
   2. Import library : Sketch &#8594; Include Library &#8594; Add .ZIP Library...
@@ -27,10 +27,8 @@ On-going
 ## Step by Step
 
 1. Plug the Cosmic LoRa Ray boards to your Laptop.
-2. COM Port should be activated. (If not activated? [Install CH340 driver](https://sparks.gogo.co.nz/ch340.html)).
-3. Setup in Arduino IDE :
-   * Pick the appropriate board : Tools &#8594; Board &#8594; Arduino Pro or Pro Mini
-   * Pick the appropriate processor : Tools &#8594; Board &#8594; ATMega 328P (3.3V 8 MHz)
+2. COM Port should be activated. (If not activated? Install Pulse [V3 Serial Driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all) or [V2 V1 Serial Driver](https://www.dnatechindia.com/cp-2102-driver-download-installation.html)).
+3. Pick the Board in Arduino IDE as [this steps](README.md#upload-and-examples).
 4. Add a device and set lora for it in your ANTARES account.
 5. Load [LoRaWAN ANTARES code](examples/LoRaWAN_ANTARES/LoRaWAN_ANTARES.ino) to Arduino IDE.
 6. Modify the code using your access key & registered device address.

@@ -26,11 +26,11 @@ Cosmic LoRa Pulse is an Entry-Level Development Board that will fasten your time
 ### Featured Spesification
 | Feature                 |                    V3              | V2, V1 |  
 | ----------------------- | --------------------------------------- |----------------|
-| **Microcontroller**         |                    ❗ATmega 328PB❗          | ❗ATmega 328P❗ |
-| **Bootloader**              |                    ❗[urboot](https://github.com/stefanrueger/urboot/)❗            | ❗Pro Mini❗ | 
-| **Clock Speed**             |                    8 MHz                | 8 MHz |
-| **LoRa(WAN)** | RFM95W | RFM95W |
-
+| **Microcontroller**     | ❗ATmega 328PB❗          | ❗ATmega 328P❗ |
+| **Bootloader**          | ❗[urboot](https://github.com/stefanrueger/urboot/)❗            | ❗Pro Mini 8 MHz 3.3V❗ |
+| **Serial Chip**         | ❗CH340x❗ | ❗CP210x❗ |  
+| **Clock Speed**         |                    8 MHz                | 8 MHz |
+| **LoRa(WAN)**           | RFM95W | RFM95W |
 
 ### Electrical Spesification
 
@@ -82,7 +82,22 @@ Cosmic LoRa Pulse is an Entry-Level Development Board that will fasten your time
 | LORA - DIO1   | 6  | 6  | 6  |
 | LED           | 8  | 5  | 5  |
 
-### Examples
+### Upload and Examples
+
+❗Please pick this board before run the examples below❗
+
+#### V3
+
+* Tools -> Board -> MiniCore -> ATmega328
+* Variant -> 328PB
+* Clock -> External 8 MHz
+
+#### V2 & V1
+
+* Tools -> Board -> Arduino AVR Boards -> Arduino Pro or Pro Mini
+* Processor -> ATmega328P (3.3V, 8 MHz)
+
+#### Examples 
 
 * [LoRa Point-to-Point](LoRa-P2P.md)
 * [LoRaWAN ANTARES](LoRaWAN-ANTARES.md)
@@ -92,4 +107,10 @@ Cosmic LoRa Pulse is an Entry-Level Development Board that will fasten your time
 
 ## FAQ
 
-On-going
+**How to install LoRa Pulse into Arduino IDE Board Manager?**
+
+Please follow [this tutorial](How_To_Install_Pulse_Board.md).
+
+**How to install Serial Chip Driver?**
+
+Please follow [this tutorial](How_To_INstall_Serial_Chip.md).
